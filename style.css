@@ -1,0 +1,40 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+h1 {
+    margin-bottom: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+button, .botao-flutuante {
+    padding: 10px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button {
+    background-color: #03DAC6;
+    color: black;
+}
+.botao-flutuante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #BB86FC;
+    color: white;
+    text-decoration: none;
+}
+.actions {
+    margin-top: 30px;
+}
